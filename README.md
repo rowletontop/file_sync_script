@@ -13,7 +13,9 @@ This script is designed to copy files from a source directory to a destination d
 - Logs all file operations to a log file
 
 # Tips
-- Run this script in a schedule using
+- Run this script in a schedule using:
+  Crontab (Linux)
+  Task scheduler (Windows)
 
 # Requirements
 - Python 3.x
