@@ -1,5 +1,3 @@
-# file_sync
-
 # File Synchronizer Script
 Simple Python script that updates specified files from source folder to destination folder.
 
