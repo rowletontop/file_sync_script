@@ -12,6 +12,9 @@ This script is designed to copy files from a source directory to a destination d
 - Skips files that start with a specified prefix
 - Logs all file operations to a log file
 
+# Tips
+- Run this script in a schedule using
+
 # Requirements
 - Python 3.x
 - os, hashlib, shutil, and datetime modules (included with Python)
@@ -20,7 +23,7 @@ This script is designed to copy files from a source directory to a destination d
 The script uses the following variables to configure its behavior:
 
 - source_folder: The source directory to copy files from
-- destiny_folder: The destination directory to copy files to
+- destination_folder: The destination directory to copy files to
 - name_filter: The prefix to filter files by (e.g., "TEXTFILE_") LEAVE THIS "" OR "*"
 - skip_logging: The prefix to skip logging for (e.g., "SKIP_") LEAVE THIS "" OR "*"
 - extension: The file extensions to copy (e.g., ".xls", ".txt", ".pdf")
