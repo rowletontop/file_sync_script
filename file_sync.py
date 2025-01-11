@@ -4,8 +4,8 @@ import shutil
 import datetime
 
 # Variables
-source_folder = r"C:\Temp\Source-test" 
-destination_folder = r"C:\Temp\Destination-test"
+source_folder = r"" # f.e. C:\Temp\Source-test
+destination_folder = r"" # f.e. C:\Temp\Destination-test
 name_filter = "" #Keep this to "" or "*" to ignore the namefilter  # The start of a file it should look for (f.e. TEXTFILE_ to make it look for files that start with TEXTFILE_)
 skip_logging = "" #Keep this to "" or "*" to ignore the namefilter # Files which it will ignore logging, please use a wildcard.
 extension = (".example", ".txt", ".extension") # The file extensions it will look for
